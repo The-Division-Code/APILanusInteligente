@@ -43,7 +43,7 @@ module.exports = {
                     documentacion:'https://lanusinteligente.divisioncode.com.ar/api/seguridad/doc'
             },
                 transporte:{
-                    vista:'https://lanusinteligente.divisioncode.com.ar/transporte',
+                    vista:'https://lanusinteligente.divisioncode.com.ar/api/transporte',
                     documentacion:'https://lanusinteligente.divisioncode.com.ar/api/transporte/doc'
                 }
             }
