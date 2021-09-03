@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const clubesController = require('../controller/clubesController')
+const clubesController = require('../controller/ClubesController')
 
 router.get('/', clubesController.getAll);
 router.get('/doc', clubesController.doc)
