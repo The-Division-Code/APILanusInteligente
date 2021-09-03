@@ -32,7 +32,7 @@ module.exports = {
                     documentacion:'https://lanusinteligente.divisioncode.com.ar/api/clubes/doc'},
                 Educacion: {
                     vista:'https://lanusinteligente.divisioncode.com.ar/api/educacion',
-                    documentacion:'http://localhost:4000/api/educacion/doc'
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/educacion/doc'
             },
                 salud:{
                     vista: 'https://lanusinteligente.divisioncode.com.ar/api/salud',
@@ -40,7 +40,7 @@ module.exports = {
                 },
                 seguridad:{ 
                     vista:'https://lanusinteligente.divisioncode.com.ar/api/seguridad',
-                    documentacion:'http://localhost:4000/api/seguridad/doc'
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/seguridad/doc'
             },
                 transporte:{
                     vista:'https://lanusinteligente.divisioncode.com.ar/transporte',
