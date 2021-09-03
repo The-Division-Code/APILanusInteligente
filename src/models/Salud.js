@@ -20,6 +20,11 @@ const SaludSchema = new mongoose.Schema({
                 values:['Nacional','Provincial','Municipal'],
                 message:'Los valores válidos son: Nacional / Provincial / Municipal'
             }
+        },
+        address:{
+            type:String,
+            required:true,
+            
         }
     },
     geometry:{

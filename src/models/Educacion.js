@@ -19,6 +19,11 @@ const EducacionSchema = new mongoose.Schema({
             enum:{
                 values:['Primaria','Secundaria','Terciaria','Universitaria','Otras'],
                 message:'Los valores válidos son: Primaria / Secundaria / Terciaria / Universitarias / Otras'
+            },
+            address:{
+                type:String,
+                required:true,
+                
             }
         }
     },

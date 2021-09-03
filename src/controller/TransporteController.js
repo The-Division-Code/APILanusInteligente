@@ -17,7 +17,8 @@ module.exports = {
             type: "Transporte",
             properties:{
                 name:req.body.name,
-                type: req.body.tipo
+                type: req.body.tipo,
+                address:req.body.address
             },
             geometry:{
                 type: req.body.type,

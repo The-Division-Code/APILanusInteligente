@@ -16,7 +16,8 @@ module.exports = {
         const data ={ 
             type: "Club",
             properties:{
-                name:req.body.name
+                name:req.body.name,
+                address:req.body.address
             },
             geometry:{
                 type: req.body.type,

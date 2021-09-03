@@ -14,6 +14,11 @@ const seguridadSchema = new mongoose.Schema({
             type:String,
             required:true,
             default:'Comisaría'        
+        },
+        address:{
+            type:String,
+            required:true,
+            
         }
     },
     geometry:{

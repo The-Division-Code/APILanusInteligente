@@ -10,7 +10,7 @@ module.exports = {
         .catch(err => res.status(500).send({err}));
     },
     doc: function(req,res) {
-        res.send({message:'Los campos obligatorios son: name => nombre del destacamento; tipo => Comisaría, Comisaría de la mujer, destacamento provincial, etc  type => Point; coordenates => primero latitud y luego longitud ej: -34.7233359,-58.3957713, solo separados por una coma, sin espacios'})
+        res.send({message:'Los campos obligatorios son: name => nombre del destacamento; tipo => Comisaría, Comisaría de la mujer, bomberos, juzgados, destacamento provincial, etc  type => Point; coordenates => primero latitud y luego longitud ej: -34.7233359,-58.3957713, solo separados por una coma, sin espacios'})
     },
     create: function(req,res){
         const data ={ 
@@ -18,6 +18,7 @@ module.exports = {
             properties:{
                 name:req.body.name,
                 tipo: req.body.tipo,
+                address:req.body.address
             },
             geometry:{
                 type: req.body.type,

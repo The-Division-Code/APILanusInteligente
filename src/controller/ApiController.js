@@ -2,10 +2,10 @@ module.exports = {
     index: function(req,res){
         return res.status(200).json({
             local:{
-                bomberos:{
-                    vista: 'http://localhost:4000/api/bomberos', 
-                    documentacion:'http://localhost:4000/api/bomberos/doc'
-            },
+            //     bomberos:{
+            //         vista: 'http://localhost:4000/api/bomberos', 
+            //         documentacion:'http://localhost:4000/api/bomberos/doc'
+            // },
                 clubes:{
                     vista: 'http://localhost:4000/api/clubes',
                     documentacion:'http://localhost:4000/api/clubes/doc'},
