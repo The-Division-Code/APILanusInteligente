@@ -27,12 +27,25 @@ module.exports = {
                 }
             },
             remote:{
-                bomberos: 'https://lanusinteligente.divisioncode.com.ar/api/bomberos',
-                clubes: 'https://lanusinteligente.divisioncode.com.ar/api/clubes',
-                Educacion: 'https://lanusinteligente.divisioncode.com.ar/api/educacion',
-                salud: 'https://lanusinteligente.divisioncode.com.ar/api/salud',
-                seguridad: 'https://lanusinteligente.divisioncode.com.ar/api/seguridad',
-                transporte:'https://lanusinteligente.divisioncode.com.ar/api/transporte'
+                clubes:{
+                    vista: 'https://lanusinteligente.divisioncode.com.ar/api/clubes',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/clubes/doc'},
+                Educacion: {
+                    vista:'https://lanusinteligente.divisioncode.com.ar/api/educacion',
+                    documentacion:'http://localhost:4000/api/educacion/doc'
+            },
+                salud:{
+                    vista: 'https://lanusinteligente.divisioncode.com.ar/api/salud',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/salud/doc'
+                },
+                seguridad:{ 
+                    vista:'https://lanusinteligente.divisioncode.com.ar/api/seguridad',
+                    documentacion:'http://localhost:4000/api/seguridad/doc'
+            },
+                transporte:{
+                    vista:'https://lanusinteligente.divisioncode.com.ar/transporte',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/transporte/doc'
+                }
             }
            
         })

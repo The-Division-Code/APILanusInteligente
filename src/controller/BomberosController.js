@@ -10,7 +10,7 @@ module.exports = {
         .catch(err => res.status(500).send({err}));
     },
     doc: function(req,res) {
-        res.send({message:'Los campos obligatorios son: name => nombre del cuartel;  type => Point; coordenates => primero latitud y luego longitud ej: -34.7233359,-58.3957713, solo separados por una coma, sin espacios'})
+        res.send({message:'Los campos obligatorios son: name => nombre del cuartel; address => Calle y altura;  type => Point; coordenates => primero latitud y luego longitud ej: -34.7233359,-58.3957713, solo separados por una coma, sin espacios'})
     },
     create: function(req,res){
         const data ={ 
