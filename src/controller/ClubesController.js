@@ -23,11 +23,6 @@ module.exports = {
                 type: req.body.type,
                 coordenates: req.body.coordenates
             }
-
-
-            // lat: req.body.lat,
-            // lon: req.body.lon,
-
         }
         const newClub = new Clubes(data)
         newClub.save()
