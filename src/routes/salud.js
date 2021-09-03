@@ -3,6 +3,7 @@ const router = express.Router();
 const saludController = require('../controller/SaludController')
 
 router.get('/', saludController.getAll);
-router.post('/create', saludController.create)
+router.get('/doc', saludController.doc)
+router.post('/create', saludController.create);
 
 module.exports = router
