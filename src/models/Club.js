@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const ClubesSchema = new mongoose.Schema({
+const ClubSchema = new mongoose.Schema({
     type:{
         type: String,
         default: "Features"
@@ -25,8 +25,8 @@ const ClubesSchema = new mongoose.Schema({
             required: true,
             default: "Point"
         },
-        coordenates:{
-            type:[String],
+        coordinates:{
+            type:[Number],
             required:true,
             index:"2dsphere"
         }
@@ -35,6 +35,6 @@ const ClubesSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const Clubes = mongoose.model('Clubes', ClubesSchema)
+const Club = mongoose.model('Club', ClubSchema)
 
-module.exports = Clubes
+module.exports = Club

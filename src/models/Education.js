@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const EducacionSchema = new mongoose.Schema({
+const EducationSchema = new mongoose.Schema({
     type:{
         type: String,
         default: "Features"
@@ -17,7 +17,7 @@ const EducacionSchema = new mongoose.Schema({
         dependence:{
             type: String,
             enum:{
-                values:['Primaria','Secundaria','Terciaria','Universitaria','Otras'],
+                values:['Inicial','Primaria','Secundaria','Terciaria','Universitaria','Otras'],
                 message:'Los valores válidos son: Primaria / Secundaria / Terciaria / Universitarias / Otras'
             }
         },
@@ -37,8 +37,8 @@ const EducacionSchema = new mongoose.Schema({
             required: true,
             default: "Point"
         },
-        coordenates:{
-            type:[String],
+        coordinates:{
+            type:[Number],
             required:true,
             index:"2dsphere"
         }
@@ -47,6 +47,6 @@ const EducacionSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const Educacion = mongoose.model('Educacion', EducacionSchema)
+const Education = mongoose.model('Education', EducationSchema)
 
-module.exports = Educacion
+module.exports = Education

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const seguridadSchema = new mongoose.Schema({
+const HealthSchema = new mongoose.Schema({
     type:{
         type: String,
         default: "Features"
@@ -10,10 +10,16 @@ const seguridadSchema = new mongoose.Schema({
             type: String,
             required:true
         },
-        type:{
-            type:String,
-            required:true,
-            default:'Comisaría'        
+        public:{
+            type: Boolean,
+            required:true
+        },
+        dependence:{
+            type: String,
+            enum:{
+                values:['Nacional','Provincial','Municipal'],
+                message:'Los valores válidos son: Nacional / Provincial / Municipal'
+            }
         },
         address:{
             type:String,
@@ -31,8 +37,8 @@ const seguridadSchema = new mongoose.Schema({
             required: true,
             default: "Point"
         },
-        coordenates:{
-            type:[String],
+        coordinates:{
+            type:[Number],
             required:true,
             index:"2dsphere"
         }
@@ -41,6 +47,6 @@ const seguridadSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const Seguridad = mongoose.model('Seguridad', seguridadSchema)
+const Health = mongoose.model('Health', HealthSchema)
 
-module.exports = Seguridad
+module.exports = Health

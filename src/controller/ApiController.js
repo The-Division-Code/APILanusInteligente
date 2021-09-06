@@ -1,50 +1,50 @@
 module.exports = {
     index: function(req,res){
         return res.status(200).json({
-            // local:{
-            // //     bomberos:{
-            // //         vista: 'http://localhost:4000/api/bomberos', 
-            // //         documentacion:'http://localhost:4000/api/bomberos/doc'
-            // // },
-            //     clubes:{
-            //         vista: 'http://localhost:4000/api/clubes',
-            //         documentacion:'http://localhost:4000/api/clubes/doc'},
-            //     Educacion: {
-            //         vista:'http://localhost:4000/api/educacion',
-            //         documentacion:'http://localhost:4000/api/educacion/doc'
+            local:{
+            //     bomberos:{
+            //         vista: 'http://localhost:4000/api/bomberos', 
+            //         documentacion:'http://localhost:4000/api/bomberos/doc'
             // },
-            //     salud:{
-            //         vista: 'http://localhost:4000/api/salud',
-            //         documentacion:'http://localhost:4000/api/salud/doc'
-            //     },
-            //     seguridad:{ 
-            //         vista:'http://localhost:4000/api/seguridad',
-            //         documentacion:'http://localhost:4000/api/seguridad/doc'
-            // },
-            //     transporte:{
-            //         vista:'http://localhost:4000/api/transporte',
-            //         documentacion:'http://localhost:4000/api/transporte/doc'
-            //     }
-            // },
-            remote:{
                 clubes:{
-                    vista: 'https://lanusinteligente.divisioncode.com.ar/api/clubes',
-                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/clubes/doc'},
+                    vista: 'http://localhost:4000/api/club',
+                    documentacion:'http://localhost:4000/api/club/doc'},
                 Educacion: {
-                    vista:'https://lanusinteligente.divisioncode.com.ar/api/educacion',
-                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/educacion/doc'
+                    vista:'http://localhost:4000/api/education',
+                    documentacion:'http://localhost:4000/api/education/doc'
             },
                 salud:{
-                    vista: 'https://lanusinteligente.divisioncode.com.ar/api/salud',
-                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/salud/doc'
+                    vista: 'http://localhost:4000/api/health',
+                    documentacion:'http://localhost:4000/api/health/doc'
                 },
                 seguridad:{ 
-                    vista:'https://lanusinteligente.divisioncode.com.ar/api/seguridad',
-                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/seguridad/doc'
+                    vista:'http://localhost:4000/api/security',
+                    documentacion:'http://localhost:4000/api/security/doc'
             },
                 transporte:{
-                    vista:'https://lanusinteligente.divisioncode.com.ar/api/transporte',
-                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/transporte/doc'
+                    vista:'http://localhost:4000/api/transport',
+                    documentacion:'http://localhost:4000/api/transport/doc'
+                }
+            },
+            remote:{
+                clubes:{
+                    vista: 'https://lanusinteligente.divisioncode.com.ar/api/club',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/club/doc'},
+                Educacion: {
+                    vista:'https://lanusinteligente.divisioncode.com.ar/api/education',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/education/doc'
+            },
+                salud:{
+                    vista: 'https://lanusinteligente.divisioncode.com.ar/api/health',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/health/doc'
+                },
+                seguridad:{ 
+                    vista:'https://lanusinteligente.divisioncode.com.ar/api/security',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/security/doc'
+            },
+                transporte:{
+                    vista:'https://lanusinteligente.divisioncode.com.ar/api/transport',
+                    documentacion:'https://lanusinteligente.divisioncode.com.ar/api/transport/doc'
                 }
             }
            
