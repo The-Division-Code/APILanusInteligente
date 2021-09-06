@@ -19,7 +19,8 @@ module.exports = {
                 name:req.body.name,
                 public: req.body.public,
                 dependence: req.body.dependence,
-                address:req.body.address
+                address:req.body.address,
+                height:req.body.height
             },
             geometry:{
                 type: req.body.type,

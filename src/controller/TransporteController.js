@@ -18,7 +18,8 @@ module.exports = {
             properties:{
                 name:req.body.name,
                 type: req.body.tipo,
-                address:req.body.address
+                address:req.body.address,
+                height:req.body.height
             },
             geometry:{
                 type: req.body.type,

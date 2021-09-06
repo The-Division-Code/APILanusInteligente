@@ -25,6 +25,10 @@ const SaludSchema = new mongoose.Schema({
             type:String,
             required:true,
             
+        },
+        height:{
+            type: String,
+            required:true
         }
     },
     geometry:{

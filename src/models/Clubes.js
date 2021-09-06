@@ -13,7 +13,10 @@ const ClubesSchema = new mongoose.Schema({
         address:{
             type:String,
             required:true,
-            
+        },
+        height:{
+            type: String,
+            required:true
         }
     },
     geometry:{
