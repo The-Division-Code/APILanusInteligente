@@ -18,7 +18,6 @@ module.exports = {
         let v2 = parseFloat(values[1])
         let coordinates = [v1,v2]
         const data ={ 
-            type: "Club",
             properties:{
                 name:req.body.name,
                 address:req.body.address,

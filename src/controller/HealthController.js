@@ -18,7 +18,7 @@ module.exports = {
         let v2 = parseFloat(values[1])
         let coordinates = [v1,v2]
         const data ={ 
-            type: "Salud",
+
             properties:{
                 name:req.body.name,
                 public: req.body.public,
