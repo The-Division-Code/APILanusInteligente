@@ -4,7 +4,7 @@ module.exports = {
     getAll: function(req,res){
         Health.find({})
         .then(health =>{
-            if(health.length!= 0) return res.status(200).send({health})
+            if(health.length!= 0) return res.status(200).send({"type": "FeatureCollection","name": "Instituciones de salud","features": health})
             return res.status(204).send({message:"No hay centros de salud cargados aun"})
         })
         .catch(err => res.status(500).send({err}));
