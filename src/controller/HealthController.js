@@ -3,7 +3,7 @@ const Health = require('../models/Health');
 module.exports = {
     getAll: function(req,res){
         let all = Health.find({})
-        all.select('properties geometry -_id')
+        all.select('type properties geometry -_id')
 
         .then(health =>{
             if(health.length!= 0) return res.status(200).send({"type": "FeatureCollection","name": "Instituciones de salud","features": health})
