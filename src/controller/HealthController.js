@@ -6,7 +6,7 @@ module.exports = {
         all.select('type properties geometry -_id')
 
         .then(health =>{
-            if(health.length!= 0) return res.status(200).send({"type": "FeatureCollection","name": "Instituciones de salud","features": health})
+            if(health.length!= 0) return res.status(200).send({"type": "FeatureCollection","features": health})
             return res.status(204).send({message:"No hay centros de salud cargados aun"})
         })
         .catch(err => res.status(500).send({err}));
@@ -20,7 +20,6 @@ module.exports = {
         let v2 = parseFloat(values[1])
         let coordinates = [v1,v2]
         const data ={ 
-
             properties:{
                 name:req.body.name,
                 public: req.body.public,

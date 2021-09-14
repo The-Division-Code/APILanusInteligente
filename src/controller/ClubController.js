@@ -4,7 +4,7 @@ module.exports = {
     getAll: function(req,res){
         Club.find({})
         .then(club =>{
-            if(club.length!= 0) return res.status(200).send({club})
+            if(club.length!= 0) return res.status(200).send({"type": "FeatureCollection","features":club})
             return res.status(204).send({message:"No hay clubes cargados aun"})
         })
         .catch(err => res.status(500).send({err}));

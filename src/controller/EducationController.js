@@ -4,7 +4,7 @@ module.exports = {
     getAll: function(req,res){
         Education.find({})
         .then(education =>{
-            if(education.length!= 0) return res.status(200).send({education})
+            if(education.length!= 0) return res.status(200).send({"type": "FeatureCollection","features":education})
             return res.status(204).send({message:"No hay centros educativos cargados aun"})
         })
         .catch(err => res.status(500).send({err}));

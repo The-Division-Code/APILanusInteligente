@@ -4,7 +4,7 @@ module.exports = {
     getAll: function(req,res){
         Security.find({})
         .then(security =>{
-            if(security.length!= 0) return res.status(200).send({security})
+            if(security.length!= 0) return res.status(200).send({"type": "FeatureCollection","features":security})
             return res.status(204).send({message:"No hay comisarías cargadas aun"})
         })
         .catch(err => res.status(500).send({err}));
