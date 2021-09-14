@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const EducationSchema = new mongoose.Schema({
     type:{
         type: String,
-        default: "Features"
+        default: "Feature"
     },
     properties: {
         name:{
