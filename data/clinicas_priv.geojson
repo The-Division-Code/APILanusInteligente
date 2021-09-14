@@ -1,0 +1,741 @@
+{
+  "type": "FeatureCollection",
+  "name": "clinicas_priv",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1,
+        "id": "1",
+        "localidad": "LANUS OESTE",
+        "clinica": "CENTRO DE REHABILITACION JUAN XXIII",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 4136,
+        "telefono": "4241-1817",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.391628564746419, -34.70285841854156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 2,
+        "id": "2",
+        "localidad": "LANUS OESTE",
+        "clinica": "DOMINGUEZ LUIS ALBERTO",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 4711,
+        "telefono": "no hay nada CYBER",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.392212056402826, -34.709673839767447]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 3,
+        "id": "3",
+        "localidad": "LANUS OESTE",
+        "clinica": "ELROY S.A.",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 4970,
+        "telefono": "no hay nada",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.392374334965346, -34.712508785710355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 4,
+        "id": "4",
+        "localidad": "R.DE ESCALADA",
+        "clinica": "ASE. ACCION SOC. DE EMPRESARIOS",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 6041,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.395537802940197, -34.72527510536009]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 5,
+        "id": "5",
+        "localidad": "LANUS OESTE",
+        "clinica": "CENTRO PSICOPATOLOGICO LANUS",
+        "direccion": "DEL VALLE IBERLUCEA",
+        "nro": 2882,
+        "telefono": "4247-1390",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.392917528022473, -34.705344538391337]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 6,
+        "id": "6",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA PRIVADA V. SARSFIELD S.A.",
+        "direccion": "BALCARCE",
+        "nro": 1552,
+        "telefono": "4262-8496 / 8497",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.406672839816153, -34.69092607935368]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 7,
+        "id": "7",
+        "localidad": "LANUS OESTE",
+        "clinica": "PAYASLIAN ARTURO",
+        "direccion": "BRIN MTRO",
+        "nro": 3075,
+        "telefono": "no esta",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.395378872205761, -34.708774829744883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 8,
+        "id": "8",
+        "localidad": "VALENTIN ALSINA",
+        "clinica": "CEMEVI S.R.L.",
+        "direccion": "PERON JUAN DOMINGO PDTE TTE GRAL",
+        "nro": 3434,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.412739792685045, -34.668816590326827]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 9,
+        "id": "9",
+        "localidad": "VALENTIN ALSINA",
+        "clinica": "BOTTINI GUILLERMO ANTONIO",
+        "direccion": "PERON JUAN DOMINGO PDTE TTE GRAL",
+        "nro": 3543,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.413310875609888, -34.667905557365636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 10,
+        "id": "10",
+        "localidad": "GERLI OESTE",
+        "clinica": "GUILLI ANA ROSA - SARALEGUI JULIO",
+        "direccion": "TUYUTI",
+        "nro": 1345,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.396906798681933, -34.684773005396245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 11,
+        "id": "11",
+        "localidad": "VALENTIN ALSINA",
+        "clinica": "CORRA NELSON",
+        "direccion": "ESCALADA DE SAN MARTIN R DE",
+        "nro": 3745,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.416991066901481, -34.668144493106098]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 12,
+        "id": "12",
+        "localidad": "GERLI OESTE",
+        "clinica": "CENTIR S.R.L.",
+        "direccion": "BOLIVIA",
+        "nro": 407,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.386876971269594, -34.685319310821676]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 13,
+        "id": "13",
+        "localidad": "LANUS OESTE",
+        "clinica": "METROPOLITAN S.A.",
+        "direccion": "JUJUY",
+        "nro": 1577,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.399000447870996, -34.692018516611256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 14,
+        "id": "14",
+        "localidad": "LANUS OESTE",
+        "clinica": "PROGRAMAS MEDICOS",
+        "direccion": "DEL VALLE IBERLUCEA ENRIQUE",
+        "nro": 2905,
+        "telefono": "4240-1039",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.393117005630053, -34.705705503713894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 15,
+        "id": "15",
+        "localidad": "R. DE ESC.  OESTE",
+        "clinica": "CEM CENTRO DE ESPECIALIDADES",
+        "direccion": "FRANCO RAMON CDTE",
+        "nro": 3389,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.401308131736869, -34.726089003071699]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 16,
+        "id": "16",
+        "localidad": "GERLI OESTE",
+        "clinica": "SENARIS ARMANDO ALBERTO",
+        "direccion": "VELEZ SARSFIELD DALMACIO",
+        "nro": 2615,
+        "telefono": "NO HAY NADA",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.390739829244986, -34.70150312290523]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 17,
+        "id": "17",
+        "localidad": "GERLI OESTE",
+        "clinica": "LORENZ WALTER",
+        "direccion": "VELEZ SARSFIELD DALMACIO",
+        "nro": 2829,
+        "telefono": "4241-4255/4249-5549",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.390677686678487, -34.704391903168776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 18,
+        "id": "18",
+        "localidad": "LANUS ESTE",
+        "clinica": "RODRIGUEZ PORTAL ALEJANDRO",
+        "direccion": "DAMONTE VICENTE T",
+        "nro": 1658,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.388730205859403, -34.704222605836954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 19,
+        "id": "19",
+        "localidad": "LANUS ESTE",
+        "clinica": "FOURCADE GRACIELA BEATRIZ",
+        "direccion": "LBASO",
+        "nro": 2026,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.38772143026204, -34.71006858735219]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 20,
+        "id": "20",
+        "localidad": "LANUS ESTE",
+        "clinica": "POLICLINICO PRIVADO ANTARTIDA",
+        "direccion": "ITUZAINGO",
+        "nro": 1354,
+        "telefono": "4247-7093",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.387793274400991, -34.708006201772534]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 21,
+        "id": "21",
+        "localidad": "LANUS ESTE",
+        "clinica": "SUAREZ GUILLERMO JOSE",
+        "direccion": "ITUZAINGO",
+        "nro": 2055,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.380468370217102, -34.713735022557785]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 22,
+        "id": "21",
+        "localidad": "R.DE ESC. ESTE",
+        "clinica": "ALIENDE LUIS ALBERTO",
+        "direccion": "ACEVEDO",
+        "nro": 3048,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.382797119066709, -34.734483880036528]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 23,
+        "id": "21",
+        "localidad": "GERLI OESTE",
+        "clinica": "MENDEZ CARLOS",
+        "direccion": "CONGRESO",
+        "nro": 2984,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.390150550641536, -34.689973536132371]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 24,
+        "id": "CM2",
+        "localidad": "LANUS ESTE",
+        "clinica": "CENTRO MEDICO INTEGRAL DE LA MUJER",
+        "direccion": "SITIO DE MONTEVIDEO",
+        "nro": 1173,
+        "telefono": "4241-0470",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.388098880424018, -34.706894163095384]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 25,
+        "id": "CM3",
+        "localidad": "LANUS ESTE",
+        "clinica": "CLINICA GRAN SUD S.R.L.",
+        "direccion": "PERGAMINO",
+        "nro": 1982,
+        "telefono": "4241-1007",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.377505245978973, -34.716754659147995]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 26,
+        "id": "CG10",
+        "localidad": "GERLI OESTE",
+        "clinica": "HOSP. VECINAL DE GERLI (PRIVADO)",
+        "direccion": "PALACIOS ALFREDO DR",
+        "nro": 848,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.389645271519171, -34.685854382145749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 27,
+        "id": null,
+        "localidad": "LANUS OESTE",
+        "clinica": "WUNJO S.R.L.",
+        "direccion": "CASTRO BARROS",
+        "nro": 53,
+        "telefono": "4240-9609",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.393234065450763, -34.71255510694499]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 28,
+        "id": null,
+        "localidad": "LANUS OESTE",
+        "clinica": "CENTRO NEFROLOGICO LANUS",
+        "direccion": "LLAVALLOL",
+        "nro": 115,
+        "telefono": "4240-8170",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.393438987098236, -34.703333458985355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 29,
+        "id": null,
+        "localidad": "REMEDIOS DE ESCALADA",
+        "clinica": "CENTRO MEDICO REMEDIOS",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 6041,
+        "telefono": "4225-0203",
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.395537802940197, -34.72527510536009]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 30,
+        "id": null,
+        "localidad": "REMEDIOS DE ESCALADA",
+        "clinica": "CEDIMO S.R.L.",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 6330,
+        "telefono": null,
+        "internacio": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.395857973552097, -34.728900377720372]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 31,
+        "id": "CG3",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA MODELO",
+        "direccion": "YRIGOYEN HIPOLITO AV",
+        "nro": 4835,
+        "telefono": "4229-6000",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.392473327069062, -34.710891610740973]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 32,
+        "id": "CG4",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA ESTRADA",
+        "direccion": "ESTRADA FLORES DE",
+        "nro": 4258,
+        "telefono": "4239-7400",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.395260162466442, -34.732767957789662]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 33,
+        "id": "CG6",
+        "localidad": "R. DE ESCALADA",
+        "clinica": "CLINICA CENTRAL R. DE ESCALADA",
+        "direccion": "QUIRNO COSTA",
+        "nro": 778,
+        "telefono": "4242-4830/8509",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.403068534678312, -34.728933930639172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 34,
+        "id": "CG8",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA SALUD LANUS",
+        "direccion": "D ELIA CNEL ESQ PLAUL SANTIAGO",
+        "nro": 0,
+        "telefono": "4262-6085/6091",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.408488133371556, -34.690666465064993]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 35,
+        "id": "CG9",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA CRUZ BLANCA DEL SUR",
+        "direccion": "DEL VALLE ARISTOBULO",
+        "nro": 133,
+        "telefono": "4249-0687 /0909 /1140 4225-3875",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.393611523693515, -34.704555640065749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 36,
+        "id": "CG11",
+        "localidad": "GERLI ESTE",
+        "clinica": "CLINICA SAN PABLO",
+        "direccion": "SARMIENTO DOMINGO F PDTE ESQ BELGRANO CAMINO GRAL",
+        "nro": 167,
+        "telefono": "4265-0651 /53.",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.372300957537455, -34.693516203887953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 37,
+        "id": "CM1",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA MAT. PRIV. DEL PARQUE",
+        "direccion": "VIAMONTE JUAN J GDOR GRAL",
+        "nro": 2508,
+        "telefono": "4209-2026/4208-8231",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.417385653145082, -34.687478071130194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 38,
+        "id": "CM4",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA MATERNAL DEL SOL",
+        "direccion": "DEL VALLE IBERLUCEA",
+        "nro": 2564,
+        "telefono": "4249-2199/4214-2164",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.393123309578819, -34.700978378799782]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 39,
+        "id": "CM5",
+        "localidad": "LANUS ESTE",
+        "clinica": "CLINICA MITRE",
+        "direccion": "EMILIO MITRE",
+        "nro": 1173,
+        "telefono": "4241-0618",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.386466151591144, -34.70533709815799]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 40,
+        "id": "CS1",
+        "localidad": "LANUS OESTE",
+        "clinica": "CLINICA PRIV.DR. GUTIERREZ WALKER",
+        "direccion": "MAXIMO PAZ",
+        "nro": 546,
+        "telefono": "4241-2838",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.39725537082694, -34.694166345005549]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 41,
+        "id": "CS2",
+        "localidad": "LANUS ESTE",
+        "clinica": "CLINICA SAN JORGE",
+        "direccion": "PERON EVA",
+        "nro": 1536,
+        "telefono": "4241-5181/84",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.38194188601382, -34.706546793675514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 42,
+        "id": "CS4",
+        "localidad": "R. DE ESCALADA",
+        "clinica": "CLINICA SAN MICHELLE",
+        "direccion": "MALABIA PRESB JOSE SEVERO FELICIANO",
+        "nro": 438,
+        "telefono": "4242-4500/0812",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.387884496011168, -34.737006878545508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 43,
+        "id": "CS5",
+        "localidad": "R. DE ESC. ESTE",
+        "clinica": "CLINICA SANTA LAURA",
+        "direccion": "SUIPACHA",
+        "nro": 2739,
+        "telefono": "4246-3762/3462",
+        "internacio": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.380255279559925, -34.725395549639842]
+      }
+    }
+  ]
+}
