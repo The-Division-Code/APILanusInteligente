@@ -7,13 +7,13 @@ const cors = require('cors');
 
 App.use(cors());
 
-const Api = require('./routes/api');
+const Api = require('./routes/api.js');
 //const Bomberos = require('./routes/bomberos');
-const Club = require('./routes/club');
-const Education = require('./routes/education');
-const Health = require('./routes/health');
-const Security = require('./routes/security');
-const Transport = require('./routes/transport');
+const Club = require('./routes/club.js');
+const Education = require('./routes/education.js');
+const Health = require('./routes/health.js');
+const Security = require('./routes/security.js');
+const Transport = require('./routes/transport.js');
 
     // Paquete de registro de errores
 
