@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+
 const App = express();
 
 const cors = require('cors');
@@ -7,7 +8,6 @@ const cors = require('cors');
 App.use(cors());
 
 const Api = require('./routes/api.js');
-
 const Club = require('./routes/club.js');
 const Education = require('./routes/education.js');
 const Health = require('./routes/health.js');
