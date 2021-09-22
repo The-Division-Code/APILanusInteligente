@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-let log4js = require('log4js');
 const App = express();
 
 const cors = require('cors');
