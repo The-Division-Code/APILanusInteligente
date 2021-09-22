@@ -7,7 +7,7 @@ const cors = require('cors');
 App.use(cors());
 
 const Api = require('./routes/api.js');
-//const Bomberos = require('./routes/bomberos');
+
 const Club = require('./routes/club.js');
 const Education = require('./routes/education.js');
 const Health = require('./routes/health.js');
@@ -18,7 +18,6 @@ App.use(bodyParser.json())
 App.use(bodyParser.urlencoded({extended: true})) //Si va a haber formularios en este servidor tiene que ir true
 App.use(express.static(__dirname + '/public'));
 App.use('/api', Api)
-//App.use('/api/bomberos', Bomberos)
 App.use('/api/club', Club)
 App.use('/api/education', Education)
 App.use('/api/health', Health)
