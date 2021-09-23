@@ -26,7 +26,7 @@ module.exports = {
                 height:req.body.height
             },
             geometry:{
-                type: req.body.type,
+                type: "Point",
                 coordinates: coordinates
             }
         }
@@ -34,5 +34,6 @@ module.exports = {
         newEducation.save()
         .then(education => res.status(201).send({education}))
         .catch(err => res.status(500).send({err}))
-    }
+    },
+    
 }

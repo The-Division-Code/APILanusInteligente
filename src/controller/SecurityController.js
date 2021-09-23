@@ -25,7 +25,7 @@ module.exports = {
                 height:req.body.height
             },
             geometry:{
-                type: req.body.type,
+                type: "Point",
                 coordinates: coordinates
             }
         }
