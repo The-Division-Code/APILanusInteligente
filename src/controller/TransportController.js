@@ -4,8 +4,7 @@ module.exports = {
     getAll: function(req,res){
         Transport.find({})
         .then(transport =>{
-            // if(transport.length!= 0) return res.status(200).send({"type": "FeatureCollection","features":transport})
-            if(transport.length!= 0) return res.status(200).send({transport})
+            if(transport.length!= 0) return res.status(200).send({"type": "FeatureCollection","features":transport})
             return res.status(204).send({message:"No hay lugares de transporte cargados aun"})
         })
         .catch(err => res.status(500).send({err}));
