@@ -4,6 +4,6 @@ const municipalDep = require('../controller/MunicipalDepController')
 
 router.get('/', municipalDep.getAll);
 router.get('/doc', municipalDep.doc)
-router.post('/create', municipalDep.create);
+//router.post('/create', municipalDep.create);
 
 module.exports = router
