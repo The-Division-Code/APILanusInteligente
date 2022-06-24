@@ -4,6 +4,6 @@ const clubController = require('../controller/ClubController')
 
 router.get('/', clubController.getAll);
 router.get('/doc', clubController.doc)
-router.post('/create', clubController.create)
+//router.post('/create', clubController.create)
 
 module.exports = router
