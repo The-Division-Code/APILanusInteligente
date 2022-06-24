@@ -28,23 +28,23 @@ module.exports = {
             //},
             remote:{
                 clubes:{
-                    vista: 'https://lanusinteligente.divisioncode.net.ar/api/club',
-                    documentacion:'https://lanusinteligente.divisioncode.net.ar/api/club/doc'},
+                    datos: 'https://apilanus.divisioncode.net.ar/api/club',
+                    documentacion:'https://apilanus.divisioncode.net.ar/api/club/doc'},
                 Educacion: {
-                    vista:'https://lanusinteligente.divisioncode.net.ar/api/education',
-                    documentacion:'https://lanusinteligente.divisioncode.net.ar/api/education/doc'
+                    datos:'https://apilanus.divisioncode.net.ar/api/education',
+                    documentacion:'https://apilanus.divisioncode.net.ar/api/education/doc'
             },
                 salud:{
-                    vista: 'https://lanusinteligente.divisioncode.net.ar/api/health',
-                    documentacion:'https://lanusinteligente.divisioncode.net.ar/api/health/doc'
+                    datos: 'https://apilanus.divisioncode.net.ar/api/health',
+                    documentacion:'https://apilanus.divisioncode.net.ar/api/health/doc'
                 },
                 seguridad:{ 
-                    vista:'https://lanusinteligente.divisioncode.com.ar/api/security',
-                    documentacion:'https://lanusinteligente.divisioncode.net.ar/api/security/doc'
+                    datos:'https://apilanus.divisioncode.net.ar/api/security',
+                    documentacion:'https://apilanus.divisioncode.net.ar/api/security/doc'
             },
                 transporte:{
-                    vista:'https://lanusinteligente.divisioncode.com.ar/api/transport',
-                    documentacion:'https://lanusinteligente.divisioncode.net.ar/api/transport/doc'
+                    datos:'https://apilanus.divisioncode.net.ar/api/transport',
+                    documentacion:'https://apilanus.divisioncode.net.ar/api/transport/doc'
                 }
             }
            
