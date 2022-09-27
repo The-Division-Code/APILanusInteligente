@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const EducationSchema = new mongoose.Schema({
+const MunicipalDependenceSchema = new mongoose.Schema({
     type:{
         type: String,
         default: "Feature"
@@ -9,17 +9,6 @@ const EducationSchema = new mongoose.Schema({
         name:{
             type: String,
             required:true
-        },
-        public:{
-            type: Boolean,
-            required:true
-        },
-        dependence:{
-            type: String,
-            enum:{
-                values:['Inicial','Primaria','Secundaria','Terciaria','Universitaria','Otras', 'Técnica'],
-                message:'Los valores válidos son: Primaria / Secundaria / Terciaria / Universitarias / Otras / Técnica'
-            }
         },
         address:{
             type:String,
@@ -47,6 +36,6 @@ const EducationSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const Education = mongoose.model('Education', EducationSchema)
+const MunicipalDependence = mongoose.model('MunicipalDependences', MunicipalDependenceSchema)
 
-module.exports = Education
+module.exports = MunicipalDependence
